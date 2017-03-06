@@ -1,0 +1,6 @@
+[program:$port]
+command=socat -dddd -v TCP-LISTEN:$port,bind=0.0.0.0,reuseaddr,fork TCP:$ip:$port
+stdout_logfile=/dev/fd/1
+stdout_logfile_maxbytes=0
+redirect_stderr=true
+autostart=true
