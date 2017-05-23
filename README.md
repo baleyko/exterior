@@ -1,5 +1,7 @@
 # Exterior - share host machine to your dockerized stack.
 
+[![](https://images.microbadger.com/badges/image/baleyko/exterior.svg)](https://microbadger.com/images/baleyko/exterior "Get your own image badge on microbadger.com")
+
 Use case #0
 
 ```shell
